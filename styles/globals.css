@@ -4,5 +4,8 @@
 
 html.dark {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #ec3750;
+}
+body{
+    text-align: center;
 }
