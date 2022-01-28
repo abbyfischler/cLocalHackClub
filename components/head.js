@@ -1,15 +1,19 @@
 import Head from 'next/head'
 
 export default function HeadObject({children}) {
-    const title = "cLocalHackClub";
-    const description = "This is a website for Christina's local hackclub.";
+    
+    const title = "Christina's Local Hack Club";
+    const description = "Christina's local Hack Club!";
     const searchBarColor = "#ffffff"; // This is your Safari 15 Search Bar Color in Light Mode
     //const darkSearchBarColor = "#000000"; // This is your Safari 15 Search Bar Color in Dark Mode (optional)
-    const keywords = "hackclub,coding";
+    const keywords = "hackclub,code,coding";
     const author = "Abby Fischler";
+    
     const url = "http://localhost:3000"; // This is your og:url or domain (optional but recommended)
-    const image = "/icon-square.png"; // This is your OpenGraph image
+    //const image = "/ogimage.png"; // This is your OpenGraph image
+    
     return (
+
         <Head>
             <meta charSet="utf-8" />
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -24,8 +28,7 @@ export default function HeadObject({children}) {
             <meta property="og:type" content="website" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
-            {<meta property="og:image" content={image} />}
-            
+            {/* <meta property="og:image" content={image} /> */}
             {/* Add analytics here */}
             {children}
         </Head>
