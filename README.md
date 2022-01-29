@@ -2,13 +2,6 @@
 
 I coded a website for Christina's local hack club. 
 
-
-## Acknowledgements
-
- - [Sarthak Mohanty's README Template](https://github.com/sarthaktexas/perfect)
-
-
-
 ## Deployment
 
 To deploy this project, clone the repo and in terminal run
@@ -27,3 +20,7 @@ I am Abby, I'm a sophomore at Geffen Academy at UCLA. Currently, I work as inter
 
 If you have any feedback, please reach out via [my Website](abbyfischler.com)
 
+
+## Acknowledgements
+
+ - [Sarthak Mohanty's README Template](https://github.com/sarthaktexas/perfect)
