@@ -23,4 +23,4 @@ If you have any feedback, please reach out via [my Website](abbyfischler.com)
 
 ## Acknowledgements
 
- - [Sarthak Mohanty's README Template](https://github.com/sarthaktexas/perfect)
+ - [Sarthak Mohanty's Next.js (PERFECT) Template](https://github.com/sarthaktexas/perfect)
