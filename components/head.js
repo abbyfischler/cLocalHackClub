@@ -2,8 +2,8 @@ import Head from 'next/head'
 
 export default function HeadObject({children}) {
     
-    const title = "Christina's Local Hack Club";
-    const description = "Christina's local Hack Club!";
+    const title = "Charlotte Coding Club";
+    const description = "Charlotte Coding Club";
     const searchBarColor = "#ffffff"; // This is your Safari 15 Search Bar Color in Light Mode
     //const darkSearchBarColor = "#000000"; // This is your Safari 15 Search Bar Color in Dark Mode (optional)
     const keywords = "hackclub,code,coding";

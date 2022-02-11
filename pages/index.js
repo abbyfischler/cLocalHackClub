@@ -18,6 +18,7 @@ export default function Home() {
               width={900}
               height={500}
             />
+            <h1>Charlotte Coding Club will be for 5th-12th graders, and will start March 1, 3:30-4:30pm, and run every Tuesday for 6 weeks. </h1>
           </section>
           <section className="flex flex-col gap-7">
               <h1 className="text-5xl font-bold text-red dark:text-white">Why join the club?</h1>
