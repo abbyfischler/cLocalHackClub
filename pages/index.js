@@ -3,9 +3,8 @@ import Nav from "../components/nav";
 import Link from "next/link";
 
 import Image from "next/image";
-import mypic from "../public/vercel.JPG";
-import cPic from "../public/christina.JPEG";
-import jPic from "../public/jessica.JPEG";
+import cPic from "../public/christina.png";
+import jPic from "../public/jessica.png";
 
 export default function Home() {
   return (
@@ -28,23 +27,18 @@ export default function Home() {
           </h1>
         </section>
         <section className="flex flex-col gap-7 pt-4 px-40 py-3">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-10 lg:mx-36 pt-4 px-40 py-3">
-            <div className="flex flex-col">
-              <Image
-                src={cPic}
-                alt="Picture of the author"
-                height={700}
-                width={700}
-              />
-            </div>
-            <div className="flex flex-col">
-              <Image
-                src={jPic}
-                alt="Picture of the author"
-                height={700}
-                width={700}
-              />
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center md:w-1/2 mx-auto pt-4 py-3">
+            <img
+              src="/christina.png"
+              alt="Picture of the author"
+              className="w-4/5"
+            />
+
+            <img
+              src="/jessica.png"
+              alt="Picture of the author"
+              className="w-4/5"
+            />
           </div>
           <p>
             Jessica (on the right) is a professional software engineer and
@@ -108,10 +102,12 @@ export default function Home() {
             Ready to signup?
           </h1>
           <p className="dark:text-black gap-8 mx-10 lg:mx-36 pt-4 px-40 py-3">
-          Please email:{" "}
-          <a href="mailto:test@email.com">Christinaasquith@yahoo.com. </a>
-          With the students name, age, and if they have a laptop (no worries if not just let us know)!We can offer support around transportation/devices. Any questions? If
-          you are a software engineer in town, please reach out to volunteer!
+            Please email:{" "}
+            <a href="mailto:test@email.com">Christinaasquith@yahoo.com. </a>
+            With the students name, age, and if they have a laptop (no worries
+            if not just let us know)!We can offer support around
+            transportation/devices. Any questions? If you are a software
+            engineer in town, please reach out to volunteer!
           </p>
         </section>
         <h1>
