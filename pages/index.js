@@ -12,7 +12,7 @@ export default function Home() {
       <HeadObject />
       <Nav />
       <main className="flex flex-col gap-3 ">
-        <section className="py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-20">
+        <section className="py-1 dark:text-black bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-20">
           <h1 className="text-8xl pt-4">Charlotte Coding Club</h1>
           <h1 className="text-lg px-20 py-3">
             Charlotte Coding Club will be for 5th-12th graders, and will start
