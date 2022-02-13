@@ -26,12 +26,12 @@ export default function Home() {
             <img
               src="/christina.png"
               alt="Picture of the author"
-              className="w-48 h-48 md:w-72 md:h-72"
+              className="w-40 sm:w-48 sm:h-48 md:w-72 md:h-72"
             />
             <img
               src="/jessica.png"
               alt="Picture of the author"
-              className="w-48 h-48 md:w-72 md:h-72"
+              className="w-40 sm:w-48 sm:h-48 md:w-72 md:h-72"
             />
           </div>
           <p>
