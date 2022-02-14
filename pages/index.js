@@ -27,7 +27,7 @@ export default function Home() {
               <div>Christina</div>
               <img
                 src="/christina.png"
-                alt="Picture of the author"
+                alt="Picture of Christina"
                 className="w-40 sm:w-48 sm:h-48 md:w-72 md:h-72"
               />
             </div>
@@ -35,7 +35,7 @@ export default function Home() {
               <div>Jessica</div>
               <img
                 src="/jessica.png"
-                alt="Picture of the author"
+                alt="Picture of Jessica"
                 className="w-40 sm:w-48 sm:h-48 md:w-72 md:h-72"
               />
             </div>
