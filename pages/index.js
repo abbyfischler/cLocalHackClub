@@ -10,38 +10,43 @@ export default function Home() {
         <section className="flex flex-col gap-3 px-5 md:px-20 py-10 dark:text-black bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
           <h1 className="text-6xl md:text-8xl font-semibold">Charlotte Coding Club</h1>
           <h1 className="text-lg">
-            Charlotte Coding Club will be for 5th-12th graders, and will start
+            Charlotte Coding Club is for 5th-12th graders, and will start
             March 1, 3:30-4:30pm, and run every Tuesday for 6 weeks. In class
-            we’ll be building websites, games and art using many popular coding
+            we'll be building websites, games and art using many popular coding
             languages such as HTML, CSS, Javascript, Python and more. Kids will
-            get to know their way around the hardware. We may start off by
-            hacking Minecraft, designing Instagram filters, or just making some
-            silly websites. Beginners are welcome. Advanced coders who want to
-            move into Rust, Python, C++, and other trickier projects should
-            definitely join.{" "}
+            get to know their way around the hardware. Beginners are welcome.
+            Advanced coders should definitely join as we can work in Ruby, Rails,
+            JavaScript and React, plus Unity and C# (for game dev).
+            Check out our workshops:{" "}
+            <a className="underline hover:underline-offset-2 hover:font-bold" href="https://workshops.hackclub.com/">https://workshops.hackclub.com/</a>
           </h1>
         </section>
         <section className="flex flex-col gap-7 px-5 md:px-20 py-10">
           <div className="flex flex-wrap place-items-center gap-5 mx-auto">
-            <img
-              src="/christina.png"
-              alt="Picture of the author"
-              className="w-40 sm:w-48 sm:h-48 md:w-72 md:h-72"
-            />
-            <img
-              src="/jessica.png"
-              alt="Picture of the author"
-              className="w-40 sm:w-48 sm:h-48 md:w-72 md:h-72"
-            />
+            <div>
+              <div>Christina</div>
+              <img
+                src="/christina.png"
+                alt="Picture of the author"
+                className="w-40 sm:w-48 sm:h-48 md:w-72 md:h-72"
+              />
+            </div>
+            <div>
+              <div>Jessica</div>
+              <img
+                src="/jessica.png"
+                alt="Picture of the author"
+                className="w-40 sm:w-48 sm:h-48 md:w-72 md:h-72"
+              />
+            </div>
           </div>
           <p>
-            Jessica (on the right) is a professional software engineer and
-            Christina (on the left) is new to coding. We both live in Charlotte.
-            Drop by and try out one club meeting. Coding is a wonderful skill
-            that leads to the high-paying jobs that will help build our future
-            economy, Coding also teaches problem solving, cooperation and
-            critical thinking. Coding is a lot of fun, and something everyone
-            can learn to do.
+            Christina is new to coding and Jessica is a professional software engineer.
+            We both live in Charlotte. Drop by and try out one club meeting.
+            Coding is a wonderful skill that leads to the high-paying jobs that
+            will help build our future economy. Coding also teaches problem solving,
+            cooperation and critical thinking. Coding is a lot of fun, and something
+            everyone can learn to do!
           </p>
         </section>
         <section className="flex flex-col gap-7">
