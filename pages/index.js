@@ -109,6 +109,14 @@ export default function Home() {
             engineer in town, please reach out to volunteer!
           </p>
         </section>
+        <section className="flex flex-col gap-4 px-5 md:px-10">
+          <h1 className="text-5xl font-bold text-red dark:text-white gap-7">
+            The Details!
+          </h1>
+          <p>
+         The club will be held at the Charlotte Library and run every tuesday during March 1 - April 5. Please bring a laptop and charger!
+          </p>
+        </section>
       </main>
       <footer className="py-4">
         Made with 💖 by{" "}
