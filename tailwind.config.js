@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         'phantom-sans': 'Phantom Sans, sans-serif',
       },
+      backgroundImage: {
+        'hero-pattern': "url('images/img_1453.jpg')",
+      },
       colors: {
         'red': '#ec3750',
       },
@@ -16,3 +19,4 @@ module.exports = {
   },
   plugins: [],
 }
+

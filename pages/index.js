@@ -6,12 +6,13 @@ export default function Home() {
     <div className="bg-white text-black dark:bg-red dark:text-white">
       <HeadObject />
       <Nav />
+
       <main className="flex flex-col gap-10">
-        <section className="flex flex-col gap-3 px-5 md:px-20 py-10 dark:text-black bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+        <section className="flex flex-col gap-3 px-5 md:px-20 py-10 dark:text-black ">
+     
           <h1 className="text-6xl md:text-8xl font-semibold">Charlotte Coding Club</h1>
           <h1 className="text-lg">
-            Charlotte Coding Club is for 5th-12th graders, and will start
-            March 1, 3:30-4:30pm, and run every Tuesday for 6 weeks. In class
+            Charlotte Coding Club is for 5th-12th graders that runs every Tuesday for 6 weeks. In the club,
             we'll be building websites, games and art using many popular coding
             languages such as HTML, CSS, Javascript, Python and more. Kids will
             get to know their way around the hardware. Beginners are welcome.
@@ -20,8 +21,9 @@ export default function Home() {
             Check out our workshops:{" "}
             <a className="underline hover:underline-offset-2 hover:font-bold" href="https://workshops.hackclub.com/">https://workshops.hackclub.com/</a>
           </h1>
+        
         </section>
-        <section className="flex flex-col gap-7 px-5 md:px-20 py-10">
+        <section className="flex flex-col gap-7 px-3 md:px-20 ">
           <div className="flex flex-wrap place-items-center gap-5 mx-auto">
             <div>
               <div>Christina</div>
@@ -49,7 +51,7 @@ export default function Home() {
             everyone can learn to do!
           </p>
         </section>
-        <section className="flex flex-col gap-7">
+        <section className="flex flex-col gap-7 justify-center">
           <h1 className="text-5xl font-bold text-red dark:text-white">
             Why join the club?
           </h1>
@@ -101,7 +103,7 @@ export default function Home() {
             The Details!
           </h1>
           <p>
-         The club will be held at the Charlotte Library and run every tuesday during March 1 - April 5. Please bring a laptop and charger!
+         New dates coming soon! We held our first session every tuesday from March 1 - April 5 2022. Please bring a laptop and charger!
           </p>
         </section>
         <section className="flex flex-col gap-4 px-5 md:px-20 py-3">
