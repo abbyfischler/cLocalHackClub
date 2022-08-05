@@ -43,5 +43,6 @@ body {
    @apply text-center font-phantom-sans
 }
 
-
-  
+.w-fitcontent {
+    width: fit-content;
+}
