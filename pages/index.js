@@ -1,7 +1,13 @@
 import HeadObject from "../components/head";
 import Nav from "../components/nav";
+import React from "react";
+import YouTube from "react-youtube";
+
+
 
 export default function Home() {
+
+
   return (
     <div className="bg-white text-black dark:bg-red dark:text-white">
       <HeadObject />
@@ -23,6 +29,8 @@ export default function Home() {
           </h1>
         
         </section>
+
+
         <section className="flex flex-col gap-7 px-3 md:px-20 ">
           <div className="flex flex-wrap place-items-center gap-5 mx-auto">
             <div>
@@ -103,8 +111,11 @@ export default function Home() {
             The Details!
           </h1>
           <p>
-         New dates coming soon! We held our first session every tuesday from March 1 - April 5 2022. Please bring a laptop and charger!
+         New dates coming soon! We held our first session every tuesday from March 1 - April 5 2022. Please bring a laptop and charger! Here is a clip from last session:
           </p>
+          <div className="place-content-center justify-center">
+        <YouTube videoId="Sk80mGO6_cE" height="390px" width="640"/>
+      </div>
         </section>
         <section className="flex flex-col gap-4 px-5 md:px-20 py-3">
           <h1 className="text-5xl font-bold text-red dark:text-white gap-7">
@@ -127,3 +138,4 @@ export default function Home() {
     </div>
   );
 }
+
