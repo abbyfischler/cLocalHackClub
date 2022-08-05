@@ -15,7 +15,6 @@ export default function Home() {
 
       <main className="flex flex-col gap-10">
         <section className="flex flex-col gap-3 px-5 md:px-20 py-10 dark:text-black ">
-     
           <h1 className="text-6xl md:text-8xl font-semibold">Charlotte Coding Club</h1>
           <h1 className="text-lg">
             Charlotte Coding Club is for 5th-12th graders that runs every Tuesday for 6 weeks. In the club,
@@ -27,7 +26,6 @@ export default function Home() {
             Check out our workshops:{" "}
             <a className="underline hover:underline-offset-2 hover:font-bold" href="https://workshops.hackclub.com/">https://workshops.hackclub.com/</a>
           </h1>
-        
         </section>
 
 
@@ -113,9 +111,7 @@ export default function Home() {
           <p>
          New dates coming soon! We held our first session every tuesday from March 1 - April 5 2022. Please bring a laptop and charger! Here is a clip from last session:
           </p>
-          <div className="place-content-center justify-center">
-        <YouTube videoId="Sk80mGO6_cE" height="390px" width="640"/>
-      </div>
+          <YouTube videoId="Sk80mGO6_cE" height="390px" width="640" className="w-fitcontent mx-auto"/>
         </section>
         <section className="flex flex-col gap-4 px-5 md:px-20 py-3">
           <h1 className="text-5xl font-bold text-red dark:text-white gap-7">
@@ -125,7 +121,7 @@ export default function Home() {
             Please email:{" "}
             <a href="mailto:christinaasquith@yahoo.com" className="underline hover:underline-offset-2 hover:font-bold">christinaasquith@yahoo.com.</a>
             With the students name, age, and if they have a laptop (no worries
-            if not just let us know)!We can offer support around
+            if not just let us know)! We can offer support around
             transportation/devices. Any questions? If you are a software
             engineer in town, please reach out to volunteer!
           </p>
