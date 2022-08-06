@@ -17,7 +17,7 @@ export default function Home() {
         <section className="flex flex-col gap-3 px-5 md:px-20 py-10 dark:text-black ">
           <h1 className="text-6xl md:text-8xl font-semibold">Charlotte Coding Club</h1>
           <h1 className="text-lg">
-            Charlotte Coding Club is for 5th-12th graders that runs every Tuesday for 6 weeks. In the club,
+            Charlotte Coding Club is for 5th-12th graders that runs weekly for 6 weeks. In the club,
             we'll be building websites, games and art using many popular coding
             languages such as HTML, CSS, Javascript, Python and more. Kids will
             get to know their way around the hardware. Beginners are welcome.
@@ -109,7 +109,7 @@ export default function Home() {
             The Details!
           </h1>
           <p>
-         New dates coming soon! We held our first session every tuesday from March 1 - April 5 2022. Please bring a laptop and charger! Here is a clip from last session:
+         New dates coming soon! We held our first session weekly from March 1 - April 5 2022. Please bring a laptop and charger! Here is a clip from last session:
           </p>
           <YouTube videoId="Sk80mGO6_cE" height="390px" width="640" className="w-fitcontent mx-auto"/>
         </section>
