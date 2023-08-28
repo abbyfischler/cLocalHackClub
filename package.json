@@ -16,7 +16,7 @@
     "react-flickity-component": "^3.6.3",
     "react-icons": "^4.8.0",
     "react-youtube": "^10.1.0",
-    "swr": "^2.1.4"
+    "swr": "^2.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
